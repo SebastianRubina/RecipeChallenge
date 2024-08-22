@@ -6,13 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F697A6CA2C76E31700E05B8D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F697A6C92C76E31700E05B8D /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F697A6B22C76E2BD00E05B8D /* RecipeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F697A6C92C76E31700E05B8D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F697A6C82C76E2E200E05B8D /* Exceptions for "RecipeChallenge" folder in "RecipeChallenge" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F697A6B12C76E2BD00E05B8D /* RecipeChallenge */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F697A6B42C76E2BD00E05B8D /* RecipeChallenge */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F697A6C82C76E2E200E05B8D /* Exceptions for "RecipeChallenge" folder in "RecipeChallenge" target */,
+			);
 			path = RecipeChallenge;
 			sourceTree = "<group>";
 		};
@@ -32,6 +50,7 @@
 		F697A6A92C76E2BD00E05B8D = {
 			isa = PBXGroup;
 			children = (
+				F697A6C92C76E31700E05B8D /* .gitignore */,
 				F697A6B42C76E2BD00E05B8D /* RecipeChallenge */,
 				F697A6B32C76E2BD00E05B8D /* Products */,
 			);
@@ -109,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F697A6CA2C76E31700E05B8D /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +147,8 @@
 /* Begin XCBuildConfiguration section */
 		F697A6BE2C76E2BE00E05B8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = F697A6B42C76E2BD00E05B8D /* RecipeChallenge */;
+			baseConfigurationReferenceRelativePath = Config.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -190,6 +212,8 @@
 		};
 		F697A6BF2C76E2BE00E05B8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = F697A6B42C76E2BD00E05B8D /* RecipeChallenge */;
+			baseConfigurationReferenceRelativePath = Config.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -255,6 +279,7 @@
 				DEVELOPMENT_TEAM = T65WQ4R2H2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecipeChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +309,7 @@
 				DEVELOPMENT_TEAM = T65WQ4R2H2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecipeChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
